@@ -56,7 +56,7 @@ Symphony.js is an interactive web-based development tool that merges a code edit
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/symphony-js.git
+git clone https://github.com/akashsahu54/symphony-js.git
 cd symphony-js
 
 # Install dependencies
@@ -333,7 +333,7 @@ Contributions are welcome! Here's how you can help:
 - Audio requires user interaction to start (browser security)
 - Some browsers may require headphones for best experience
 
-Report issues on [GitHub Issues](https://github.com/YOUR_USERNAME/symphony-js/issues).
+Report issues on [GitHub Issues](https://github.com/akashsahu54/symphony-js/issues).
 
 ---
 
