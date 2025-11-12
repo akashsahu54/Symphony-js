@@ -1,4 +1,4 @@
-# 🎵 Symphony.js
+<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/a4e9aafc-ce0a-4a95-8698-64ed1120c9f3" /># 🎵 Symphony.js
 
 **Transform your code into music. Hear your logic, feel your bugs, compose with commits.**
 
@@ -10,11 +10,12 @@ Symphony.js is an interactive web-based development tool that merges a code edit
 [![Tone.js](https://img.shields.io/badge/Tone.js-15.1-orange)](https://tonejs.github.io/)
 
 ---
-<img width="1919" height="867" alt="Homepage" src="https://github.com/user-attachments/assets/e09ec720-e307-4820-b77a-e6af04d4b7f2" />
 
 ## ✨ Features
 
 ### 🎬 Engaging Intro Experience
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/7b8c2cd3-94bd-4172-9d06-f7dfa774e1c3" />
+
 - **5-second splash screen** with animated logo and typewriter text effect
 - **Fade-in background music** that establishes the audio-visual nature
 - **Skip functionality** - press any key or click to jump straight to the editor
@@ -33,6 +34,8 @@ Symphony.js is an interactive web-based development tool that merges a code edit
 - **Melody Instrument**: Function calls and significant code events
 
 ### 🎬 Commit Compositions
+<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/536323cb-7cc5-4d30-9c7e-680969a49e08" />
+
 - Generate **15-second musical pieces** from your entire file
 - Code structure mapped to musical phrases:
   - Imports → Steady beat patterns
@@ -40,6 +43,8 @@ Symphony.js is an interactive web-based development tool that merges a code edit
   - Returns → Resolving chords
 
 ### 📊 Visual Feedback
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/55e4abe7-fe72-42d6-b5b4-3582046993b9" />
+
 - **Real-time waveform visualizer** showing audio output
 - **Code quality indicators** with visual metrics
 - **Split-screen layout**: Editor on left, visualizer on right
@@ -174,7 +179,7 @@ symphony-js/
 ### Audio Moods Explained
 
 #### 🎼 HARMONIOUS (Major Keys, 90-120 BPM)
-<img width="1919" height="872" alt="example of HARMONIOUS" src="https://github.com/user-attachments/assets/7975b19f-36d0-42f7-89a9-b955bfda1419" />
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/40eadd9b-a572-46e4-a76a-8ad2e8e5da5d" />
 
 Triggered by:
 - Clean syntax with no errors
@@ -183,7 +188,7 @@ Triggered by:
 - Proper code structure
 
 #### 🎸 DISCORDANT (Minor Keys, 60-90 BPM)
-<img width="1919" height="877" alt="example of DISCORDANT" src="https://github.com/user-attachments/assets/cd18b054-2dc9-4451-b201-25d952c4f602" />
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/9ecd958c-db4d-4863-9932-27f1512227d8" />
 
 Triggered by:
 - Syntax errors or warnings
@@ -192,7 +197,7 @@ Triggered by:
 - Undefined variables
 
 #### ⚡ INTENSE (Fast Tempo, 120-180 BPM)
-<img width="1919" height="881" alt="example of INTENSE" src="https://github.com/user-attachments/assets/ba04deac-49dc-49bd-b218-aab045fb5e91" />
+<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/328a1b4c-32d2-4e8d-a125-3a8342fdc6aa" />
 
 Triggered by:
 - Complex algorithms
@@ -222,11 +227,46 @@ fucntion broken( {
 
 **INTENSE Example**:
 ```javascript
-// Complex recursion
-function fibonacci(n) {
-  if (n <= 1) return n;
-  return fibonacci(n - 1) + fibonacci(n - 2);
-}
+// Complex matrix
+def matrix_multiply(A, B):
+    """
+    Multiplies two matrices A and B.
+    This is a classic example of high algorithmic complexity.
+    """
+    if len(A[0]) != len(B):
+        print("Error: Incompatible matrix dimensions")
+        return None
+
+    # Initialize the result matrix with zeros
+    result = [[0 for _ in range(len(B[0]))] for _ in range(len(A))]
+
+    # Iterate through rows of A
+    for i in range(len(A)):
+        # Iterate through columns of B
+        for j in range(len(B[0])):
+            # Iterate through rows of B
+            for k in range(len(B)):
+                result[i][j] += A[i][k] * B[k][j]
+    
+    return result
+
+# Example matrices:
+matrix1 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+matrix2 = [
+    [9, 8, 7],
+    [6, 5, 4],
+    [3, 2, 1]
+]
+
+# This call should sound intense
+print("Calculating matrix multiplication...")
+product = matrix_multiply(matrix1, matrix2)
+print(product)
 ```
 
 ---
@@ -390,6 +430,12 @@ If you find Symphony.js helpful, please consider:
 - 🐛 **Reporting bugs**
 - 💡 **Suggesting features**
 - 🤝 **Contributing code**
+  
+---
+
+## 📧 Contact Us
+
+You can contact me directly at [akashsahu64158@gmail.com](mailto:akashsahu64158@gmail.com)
 
 ---
 
