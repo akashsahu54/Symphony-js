@@ -1,4 +1,4 @@
-
+# 🎵 Symphony.js
 
 **Transform your code into music. Hear your logic, feel your bugs, compose with commits.**
 
