@@ -1,4 +1,5 @@
-# 🎵 Symphony.js
+# <img width="720" height="456" alt="Symphony js-fotor-ai-art-effects-20251113030704" src="https://github.com/user-attachments/assets/9b69f60c-9545-4482-a5d8-30da16b1373a" />
+ Symphony.js
 
 **Transform your code into music. Hear your logic, feel your bugs, compose with commits.**
 
