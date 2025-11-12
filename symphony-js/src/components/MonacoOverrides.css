@@ -1,0 +1,51 @@
+/**
+ * Monaco Editor Global Overrides
+ * These styles ensure Monaco's context menu and overlays work properly
+ */
+
+/* Context menu z-index - must be highest to appear above everything */
+.monaco-menu-container {
+  z-index: 10000 !important;
+}
+
+.context-view {
+  z-index: 10000 !important;
+}
+
+.monaco-editor .context-view {
+  z-index: 10000 !important;
+}
+
+.monaco-editor .context-view.monaco-menu-container {
+  z-index: 10000 !important;
+}
+
+/* Autocomplete and suggestions */
+.monaco-editor .suggest-widget {
+  z-index: 9999 !important;
+}
+
+.monaco-editor .parameter-hints-widget {
+  z-index: 9999 !important;
+}
+
+/* Ensure context menu is visible and styled properly */
+.monaco-menu {
+  background-color: #252526 !important;
+  border: 1px solid #454545 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+.monaco-menu .monaco-action-bar .action-item {
+  color: #cccccc !important;
+}
+
+.monaco-menu .monaco-action-bar .action-item:hover {
+  background-color: #2a2d2e !important;
+}
+
+/* Ensure menu items are clickable */
+.monaco-menu .monaco-action-bar .action-label {
+  cursor: pointer !important;
+  padding: 4px 20px !important;
+}

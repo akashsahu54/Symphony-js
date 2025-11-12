@@ -1,0 +1,138 @@
+.editor-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #1e1e1e;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #252526;
+  border-bottom: 1px solid #333;
+  gap: 12px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.language-detector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  background-color: #2d2d2d;
+  border-radius: 4px;
+  border: 1px solid #444;
+  transition: opacity 0.3s ease;
+}
+
+.language-detector.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.language-icon {
+  font-size: 16px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.language-label {
+  font-size: 11px;
+  color: #888;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.language-badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.language-badge.javascript {
+  background: linear-gradient(135deg, #f7df1e 0%, #f0db4f 100%);
+  box-shadow: 0 2px 8px rgba(247, 223, 30, 0.3);
+}
+
+.language-badge.python {
+  background: linear-gradient(135deg, #3776ab 0%, #ffd343 100%);
+  box-shadow: 0 2px 8px rgba(55, 118, 171, 0.3);
+}
+
+.supported-languages {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background-color: #1e1e1e;
+  border-radius: 4px;
+  border: 1px solid #444;
+  font-size: 11px;
+  color: #888;
+}
+
+.support-icon {
+  font-size: 14px;
+}
+
+.support-text {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.example-selector {
+  display: flex;
+  align-items: center;
+}
+
+.example-dropdown {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid #444;
+  border-radius: 3px;
+  background-color: #2d2d2d;
+  color: #cccccc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 180px;
+}
+
+.example-dropdown:hover {
+  background-color: #3d3d3d;
+  border-color: #555;
+}
+
+.example-dropdown:focus {
+  outline: none;
+  border-color: #0e639c;
+}
+
+.editor-container {
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure Monaco context menu appears above other elements */
+/* Note: These are global Monaco classes, not scoped to this component */

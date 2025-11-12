@@ -1,0 +1,108 @@
+.quality-indicator {
+  background-color: #252526;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 8px 12px;
+  color: #cccccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex-shrink: 0;
+}
+
+.quality-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.quality-icon {
+  font-size: 18px;
+}
+
+.quality-waiting {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 13px;
+}
+
+.quality-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quality-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.quality-label {
+  color: #999;
+  font-weight: 500;
+}
+
+.quality-value {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.mood-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.intensity-bar-container {
+  position: relative;
+  flex: 1;
+  height: 18px;
+  background-color: #1e1e1e;
+  border-radius: 9px;
+  overflow: hidden;
+  margin-left: 12px;
+  border: 1px solid #444;
+}
+
+.intensity-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease, background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.intensity-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.health-bar-container {
+  margin-top: 8px;
+  height: 6px;
+  background-color: #1e1e1e;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid #444;
+}
+
+.health-bar {
+  height: 100%;
+  transition: width 0.5s ease, background-color 0.3s ease;
+  border-radius: 4px;
+  box-shadow: 0 0 10px currentColor;
+}
