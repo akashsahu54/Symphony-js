@@ -13,6 +13,12 @@ Symphony.js is an interactive web-based development tool that merges a code edit
 
 ## ✨ Features
 
+### 🎬 Engaging Intro Experience
+- **5-second splash screen** with animated logo and typewriter text effect
+- **Fade-in background music** that establishes the audio-visual nature
+- **Skip functionality** - press any key or click to jump straight to the editor
+- **Responsive design** that looks great on all devices
+
 ### 🎹 Real-Time Audio Feedback
 - **Hear your code quality** as you type with intelligent mood-based audio
 - **Three distinct moods** that reflect code characteristics:
@@ -70,10 +76,11 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### First Steps
 
-1. **Start typing code** in the Monaco Editor
-2. **Listen** as Symphony.js analyzes and sonifies your code
-3. **Click "Play Commit"** to hear your entire file as a composition
-4. **Toggle "Mute Bugs"** to silence error sounds while fixing issues
+1. **Watch the intro** - Experience the 5-second splash screen (or press any key to skip)
+2. **Start typing code** in the Monaco Editor
+3. **Listen** as Symphony.js analyzes and sonifies your code
+4. **Click "Play Commit"** to hear your entire file as a composition
+5. **Toggle "Mute Bugs"** to silence error sounds while fixing issues
 
 ---
 
@@ -140,6 +147,8 @@ symphony-js/
 
 ### Key Components
 
+**IntroScreen**: 5-second splash screen with animations and music  
+**IntroLogo**: Animated SVG logo with pulse effect  
 **CodeAnalyzer**: Analyzes code structure, detects errors, calculates complexity  
 **InstrumentManager**: Manages Tone.js instruments and audio synthesis  
 **AudioEngineContext**: Global state for audio engine and playback  
@@ -154,6 +163,7 @@ symphony-js/
 
 | Shortcut | Action |
 |----------|--------|
+| `Any Key` | Skip Intro Screen |
 | `Ctrl/Cmd + Enter` | Play Commit Composition |
 | `Ctrl/Cmd + M` | Toggle Mute Bugs |
 | `Ctrl/Cmd + /` | Show Keyboard Shortcuts |
@@ -294,9 +304,17 @@ Contributions are welcome! Here's how you can help:
 
 ## 📚 Documentation
 
-- [Requirements Document](.kiro/specs/symphony-js/requirements.md) - Detailed feature requirements
-- [Design Document](.kiro/specs/symphony-js/design.md) - Architecture and design decisions
-- [Implementation Tasks](.kiro/specs/symphony-js/tasks.md) - Development roadmap
+### Core Features
+- [Symphony.js Requirements](.kiro/specs/symphony-js/requirements.md) - Core feature requirements
+- [Symphony.js Design](.kiro/specs/symphony-js/design.md) - Architecture and design decisions
+- [Symphony.js Tasks](.kiro/specs/symphony-js/tasks.md) - Development roadmap
+
+### Intro Screen
+- [Intro Screen Requirements](.kiro/specs/intro-screen/requirements.md) - Splash screen requirements
+- [Intro Screen Design](.kiro/specs/intro-screen/design.md) - Intro screen design specifications
+- [Intro Screen Tasks](.kiro/specs/intro-screen/tasks.md) - Implementation tasks
+
+### Project Guidelines
 - [Technology Stack](.kiro/steering/tech.md) - Tech stack details
 - [Project Structure](.kiro/steering/structure.md) - File organization
 
@@ -305,6 +323,7 @@ Contributions are welcome! Here's how you can help:
 ## 🎯 Roadmap
 
 ### Current Version (v1.0)
+- ✅ Engaging intro screen with animations and music
 - ✅ Real-time audio feedback with three moods
 - ✅ Commit compositions (15-second pieces)
 - ✅ Multi-language support (JS, TS, Python)

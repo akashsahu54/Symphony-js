@@ -56,6 +56,29 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* App fade-in transition */
+.app-container {
+  opacity: 0;
+  animation: appFadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes appFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .app-container {
+    animation: none;
+    opacity: 1;
+  }
+}
+
 /* Monaco Editor context menu z-index fix */
 .monaco-menu-container,
 .context-view,

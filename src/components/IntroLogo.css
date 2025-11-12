@@ -1,0 +1,56 @@
+.intro-logo {
+  width: clamp(60px, 15vw, 120px);
+  height: clamp(60px, 15vw, 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: logo-pulse 3s ease-in-out infinite;
+  will-change: transform;
+  flex-shrink: 0; /* Prevent logo from shrinking on small screens */
+}
+
+
+
+@keyframes logo-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+/* Responsive sizing for different screen sizes */
+
+/* Mobile devices (320px - 767px) */
+@media (max-width: 767px) {
+  .intro-logo {
+    width: clamp(50px, 20vw, 80px);
+    height: clamp(50px, 20vw, 80px);
+  }
+}
+
+/* Tablet devices (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro-logo {
+    width: clamp(70px, 12vw, 100px);
+    height: clamp(70px, 12vw, 100px);
+  }
+}
+
+/* Large desktop devices (1920px+) */
+@media (min-width: 1920px) {
+  .intro-logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .intro-logo {
+    animation: none;
+  }
+}
