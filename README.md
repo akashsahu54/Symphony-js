@@ -1,4 +1,4 @@
-<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/a4e9aafc-ce0a-4a95-8698-64ed1120c9f3" /># 🎵 Symphony.js
+
 
 **Transform your code into music. Hear your logic, feel your bugs, compose with commits.**
 
