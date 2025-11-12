@@ -10,6 +10,7 @@ Symphony.js is an interactive web-based development tool that merges a code edit
 [![Tone.js](https://img.shields.io/badge/Tone.js-15.1-orange)](https://tonejs.github.io/)
 
 ---
+<img width="1919" height="867" alt="Homepage" src="https://github.com/user-attachments/assets/e09ec720-e307-4820-b77a-e6af04d4b7f2" />
 
 ## ✨ Features
 
@@ -62,7 +63,7 @@ Symphony.js is an interactive web-based development tool that merges a code edit
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/symphony-js.git
+git clone https://github.com/akashsahu54/symphony-js.git
 cd symphony-js
 
 # Install dependencies
@@ -160,6 +161,7 @@ symphony-js/
 ## 🎮 Usage Guide
 
 ### Keyboard Shortcuts
+<img width="1919" height="871" alt="Pointing to icon" src="https://github.com/user-attachments/assets/e63f9666-fbcc-4150-85ed-1f3943f2183f" />
 
 | Shortcut | Action |
 |----------|--------|
@@ -172,6 +174,8 @@ symphony-js/
 ### Audio Moods Explained
 
 #### 🎼 HARMONIOUS (Major Keys, 90-120 BPM)
+<img width="1919" height="872" alt="example of HARMONIOUS" src="https://github.com/user-attachments/assets/7975b19f-36d0-42f7-89a9-b955bfda1419" />
+
 Triggered by:
 - Clean syntax with no errors
 - Well-documented code (comments present)
@@ -179,6 +183,8 @@ Triggered by:
 - Proper code structure
 
 #### 🎸 DISCORDANT (Minor Keys, 60-90 BPM)
+<img width="1919" height="877" alt="example of DISCORDANT" src="https://github.com/user-attachments/assets/cd18b054-2dc9-4451-b201-25d952c4f602" />
+
 Triggered by:
 - Syntax errors or warnings
 - Malformed code structure
@@ -186,6 +192,8 @@ Triggered by:
 - Undefined variables
 
 #### ⚡ INTENSE (Fast Tempo, 120-180 BPM)
+<img width="1919" height="881" alt="example of INTENSE" src="https://github.com/user-attachments/assets/ba04deac-49dc-49bd-b218-aab045fb5e91" />
+
 Triggered by:
 - Complex algorithms
 - Deep nesting (depth > 4)
@@ -352,7 +360,7 @@ Contributions are welcome! Here's how you can help:
 - Audio requires user interaction to start (browser security)
 - Some browsers may require headphones for best experience
 
-Report issues on [GitHub Issues](https://github.com/YOUR_USERNAME/symphony-js/issues).
+Report issues on [GitHub Issues](https://github.com/akashsahu54/symphony-js/issues).
 
 ---
 
